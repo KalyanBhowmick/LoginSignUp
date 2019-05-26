@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title><%= title %></title>
+    <script src="//ajax.googleapis.com/ajax/libs/jquery/2.0.0/jquery.min.js"></script>
+    <!-- Compiled and minified CSS -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
+
+    <!-- Compiled and minified JavaScript -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+    <link rel='stylesheet' href='/stylesheets/style.css' />
+</head>
+
+<body>
+    <div class="container-fluid">
+        <div class="row">
+            <div class="col m12">
+                <div class="col m6" id="leftDiv"></div>
+                <div class="col m6" id="rightDiv">
+                    <form class="col s12" id="signup-form">
+
+                        <h5 style="text-align:center">Sign Up</h5>
+                        <div class="row">
+                            <div class="input-field col m6">
+                                <i class="material-icons prefix">face</i>
+                                <input id="name" type="text" class="signup_input" required>
+                                <label for="name">Name</label>
+                            </div>
+                            <div class="input-field col m6">
+                                <i class="material-icons prefix">email</i>
+                                <input id="signup_email" type="email" class="signup_input" required>
+                                <label for="signup_email">Email</label>
+                            </div>
+                        </div>
+                        <div class="row">
+                            <div class="input-field col m6">
+                                <i class="material-icons prefix">call</i>
+                                <input id="signup_phone" type="number" class="signup_input" required>
+                                <label for="signup_phone">Phone</label>
+                            </div>
+                            <div class="input-field col m6">
+                                <i class="material-icons prefix">call</i>
+                                <input id="signup_landline" type="number" class="signup_input">
+                                <label for="signup_landline">Landline</label>
+                            </div>
+
+                        </div>
+                        <div class="row">
+                            <div class="input-field col m6">
+                                <i class="material-icons prefix">https</i>
+                                <input id="signup_password" type="password" class="signup_input" required>
+                                <label for="signup_password">Password</label>
+                            </div>
+                            <div class="input-field col m6">
+                                <i class="material-icons prefix">https</i>
+                                <input id="confirm_password" type="password" class="signup_input" required>
+                                <label for="confirm_password">Confirm Password</label>
+                            </div>
+                        </div>
+
+                        <button class="btn waves-effect waves-light" id="sign-up-button" type="button"
+                            onclick="signUp()">Sign Up
+
+                        </button>
+
+                        <a href="/">Already have an account?</a>
+
+                    </form>
+                </div>
+            </div>
+
+
+        </div>
+
+    </div>
+    <script src="/javascripts/index.js"></script>
+</body>
+
+</html>

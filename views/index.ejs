@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title><%= title %></title>
+    <script src="//ajax.googleapis.com/ajax/libs/jquery/2.0.0/jquery.min.js"></script>
+    <!-- Compiled and minified CSS -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
+
+    <!-- Compiled and minified JavaScript -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+    <link rel='stylesheet' href='/stylesheets/style.css' />
+  </head>
+  <body>
+      <div class="container-fluid">
+          <div class="row">
+              <div class="col m12">
+                  <div class="col m6" id="leftDiv"></div>
+                  <div class="col m6" id="rightDiv">
+                      <form class="col s12" id="login-form">
+  
+                          <h5 style="text-align:center">Let's begin</h5>
+                          <div class="input-field">
+                              <i class="material-icons prefix">account_circle</i>
+                              <input id="login_email" type="text" class="validate" required>
+                              <label for="login_email">Email</label>
+                          </div>
+                          <div class="input-field">
+                              <i class="material-icons prefix">https</i>
+                              <input id="login_password" type="password" class="validate" required>
+                              <label for="login_password">Password</label>
+                          </div>
+                          <button class="btn waves-effect waves-light" id="login-button" type="button"
+                              onclick="login()">Login
+  
+                          </button>
+
+                          <a href="/signup">Don't have an account?</a>
+  
+                      </form>
+                  </div>
+              </div>
+  
+  
+          </div>
+  
+      </div>
+      <script src="/javascripts/index.js"></script>
+  </body>
+</html>

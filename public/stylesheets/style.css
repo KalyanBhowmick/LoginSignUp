@@ -1,0 +1,33 @@
+body {
+  /* padding: 50px; */
+  font: 14px "Lucida Grande", Helvetica, Arial, sans-serif;
+}
+
+a {
+  text-align: center;
+}
+
+#leftDiv {
+  height: 650px;
+  background-color: #c2185b;
+}
+
+#rightDiv {
+  height: 650px;
+}
+
+#login-form {
+  height: 300px;
+  width: 350px;
+  margin: 200px 50px;
+}
+
+#login-button {
+  margin: 0 50%;
+}
+
+#sign-up-button {
+
+  margin: 0 50%;
+
+}
