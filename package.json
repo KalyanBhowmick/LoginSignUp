@@ -1,15 +1,12 @@
 {
   "name": "loginsignup",
-  "version": "0.0.0",
-  "private": true,
-  "scripts": {
-    "start": "node ./bin/www"
-  },
+  "version": "1.0.0",
+  "description": "",
+  "main": "app.js",
   "dependencies": {
     "bcryptjs": "^2.4.3",
     "body-parser": "^1.19.0",
     "cookie-parser": "^1.4.4",
-    "debug": "~2.6.9",
     "ejs": "^2.6.1",
     "express": "^4.16.4",
     "http-errors": "^1.6.3",
@@ -17,9 +14,19 @@
     "morgan": "^1.9.1",
     "nodemon": "^1.19.0"
   },
-  "main": "app.js",
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/KalyanBhowmick/LoginSignUp.git"
+  },
   "keywords": [],
   "author": "",
   "license": "ISC",
-  "description": ""
+  "bugs": {
+    "url": "https://github.com/KalyanBhowmick/LoginSignUp/issues"
+  },
+  "homepage": "https://github.com/KalyanBhowmick/LoginSignUp#readme"
 }
